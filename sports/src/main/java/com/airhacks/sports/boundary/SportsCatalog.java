@@ -24,7 +24,11 @@ public class SportsCatalog {
         if (category == null) {
             throw new IllegalArgumentException("Category parameter cannot be null");
         }
-        return "go, chess, " + us.legacyGame();
+        String legacyGame = us.legacyGame();
+        if (legacyGame.equalsIgnoreCase("soccer")) {
+            throw new IllegalStateException("soccer it not ugly!!!");
+        }
+        return "go, chess, " + legacyGame;
     }
 
     public void save(String game) {
