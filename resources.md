@@ -17,3 +17,5 @@ apache benchmark
 jmc (java mission control)
 https://github.com/samolisov/spring-vs-ejb-vs-cdi-benchmark
 http://www.adam-bien.com/roller/abien/entry/enabling_remote_administration_for_glassfish
+http://phantomjs.org
+arquillian graphene
