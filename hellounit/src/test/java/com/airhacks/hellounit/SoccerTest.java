@@ -17,6 +17,9 @@ public class SoccerTest {
     @Rule
     public ExpectedException expected = ExpectedException.none();
 
+    @Rule
+    public AuditRule audit = new AuditRule();
+
     @Before
     public void init() {
         this.cut = new Soccer();
