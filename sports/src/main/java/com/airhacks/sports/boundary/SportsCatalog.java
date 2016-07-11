@@ -32,6 +32,9 @@ public class SportsCatalog {
     }
 
     public void save(String game) {
+        if (game.equalsIgnoreCase("testing")) {
+            throw new IllegalStateException("too lazy");
+        }
         this.em.persist(new Game(game));
     }
 
