@@ -10,7 +10,7 @@ import javax.persistence.NamedQuery;
  * @author airhacks.com
  */
 @Entity
-@NamedQuery(name = "all", query = "SELECT g FROM Game g where g.skill")
+@NamedQuery(name = "all", query = "SELECT g FROM Game g")
 public class Game {
 
     @Id
