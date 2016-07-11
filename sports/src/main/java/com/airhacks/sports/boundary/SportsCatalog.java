@@ -13,4 +13,8 @@ public class SportsCatalog {
         return "go, chess";
     }
 
+    public void save(String game) {
+
+    }
+
 }
