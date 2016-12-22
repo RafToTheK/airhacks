@@ -1,3 +1,5 @@
+I forked this repository in July 2016. It was creating during Adams workshop about testing in JavaEE
+
 airhacks
 ========
 
